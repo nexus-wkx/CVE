@@ -67,7 +67,7 @@ sqlmap -u "10.211.55.6:1133/staff.php" \
        --random-agent --tamper=space2comment --dbs
 ```
 **Screenshots from sqlmap Execution:**
-+ 
++ <img width="1683" alt="image" src="https://github.com/user-attachments/assets/03b8f55f-790c-4097-9b53-219c84b5a969" />
 
 # 8. Recommendations for Remediation
 **1.Use Prepared Statements and Parameterized Queries:**
